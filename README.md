@@ -28,7 +28,11 @@ mysql> load data infile 'sftp://teste:qwe123@arquivo.csv'           into table a
 TODO?
 
 Support to parallel read/write (split) S3 files.
+
 Support to read S3 files as stream.
+
 Support on read/write S3 to send access_key and secret_key via URI, like user and password on HTTP support.
+
 Masquerade access_key and secret_key on mysql logs.
+
 After load the data, all temporary files must be removed. This requires create a "garbage collector".
